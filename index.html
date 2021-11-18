@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <script src="js/User.class.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOF - Sing in</title>
+    <!--Load Bootstrap min css file-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--Load HOF css file-->
+    <link href="css/index.css" rel="stylesheet">
+    <!--Icon SVG-->
+    <link rel="icon" href="images/HOF-images/icon.svg">
+</head>
+<body align="center" class="bg-light">
+    <main>
+        <div>
+            <p> <span class="h-1">House</span><span class="h-2">OfFashion</span></p>
+            <div>
+                <div class="nav-nav">
+                    <span class="nav-in nav-in1 nav-in-select" id="nav1"><span class="fake">rrr</span>REGISTER<span class="fake">rrr</span></span>
+                    <span class="nav-in nav-in2" id="nav2"><span class="fake">rrr</span>SIGN IN<span class="fake">rrr</span></span>
+                </div>
+                <div class="choose">
+                    <div id="register">
+                        <small class="advise"><span class="glyphicon glyphicon-heart"></span> Register now to get New clothes</small><br>
+                        <input type="text" placeholder="Phone number" id="r-phone">
+                        <br><br>
+                        <input type="email" placeholder="Email address" id="r-mail">
+                        <br><br>
+                        <input type="password" placeholder="Password" id="r-pwd">
+                        <br><br>
+                        <div class="box-warning r-error off"><!--Error text--></div>
+                        <button id="r-valide">CREATE ACCOUNT</button>
+                        <br>
+                        <small class="conditions">
+                            By creating an account, you agree to the
+                        </small> 
+                        <br>
+                        <small class="conditions">
+                            <a href="html/HOF-DataUsing-Confidentiality.html">HOF Membership Agreement</a> and
+                        </small class="conditions">
+                        <br>
+                        <small class="conditions">
+                            <a href="html/HOF-DataUsing-Confidentiality.html">Privacy Policy</a>
+                        </small>
+                    </div>
+                    <div id="sing" class="off">
+                        <input type="text" placeholder="Phone number" id="s-phone">
+                        <br><br>
+                        <input type="password" placeholder="Password" id="s-pwd">
+                        <br><br>
+                        <div class="box-warning s-error off"><!--Error text--></div>
+                        <a href="">Forgot your password ?</a><br>
+                        <button id="s-valide">SIGN IN</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+    <!--Load jQuery min whose include ajax file-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!--Load Bootstrap js file-->
+    <script src="js/bootstrap.bundle.js"></script>
+    <!--Load My js file-->
+    <script src="js/index.js"></script>
+</html>

@@ -1,0 +1,101 @@
+body{
+    font-family: OCR A Std, monospace;
+    align-self: center;
+    padding: 1%;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#register, #sing{
+    opacity: 0.9;
+    transition: 2s;
+}
+
+main{
+    vertical-align: center;
+}
+
+.advise{
+    font-size: 12px;
+    color: rgb(218, 67, 67);
+}
+
+.nav-in{
+    margin: 0.5%;
+    padding-bottom: 5px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.h-1{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 211, 16);
+}
+
+.h-2{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(218, 67, 67);  
+}
+
+button{
+    background-color: rgb(243, 19, 19);
+    width: 215px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.conditions{
+    font-size: 12px;
+}
+
+.off{
+    display: none;
+}
+
+.on{
+    display: block;
+}
+
+input{
+    border: none;
+    width: 210px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    font-size: 13;
+    transition-delay: 100000000000s;
+    padding: 2%;
+}
+
+.nav-in:hover{
+    color: red;
+}
+
+.nav-nav{
+    margin-bottom: 40px;
+}
+
+.box-warning{
+    text-align: center;
+    min-height: 10%;
+    padding-top: 1%;
+    font-size: 13;
+    color: rgb(218, 67, 67);
+}
+
+.fake{
+    opacity: 0;
+}
+
+.nav-in-select{
+    font-weight: bold;
+    color: rgb(218, 67, 67);
+    border-bottom: 3px solid rgb(218, 67, 67);
+}
